@@ -23,7 +23,7 @@ export default function Info() {
 
 
       </text>
-      <div className={style.couple_img}>
+      <div >
         <Image
           className={style.couple_img}
           src="/couple.jpeg"

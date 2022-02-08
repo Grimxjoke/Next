@@ -14,8 +14,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  svg {width: 25px;margin-right: 1em;}
 
+  svg {width: 25px;margin-right: 1em;}
   .logo {
     display: flex;
     justify-content: space-between;
@@ -35,12 +35,14 @@
     margin: 0 0.25em;
     background-color: transparent;
     color: rgba(255, 255, 255, 0.76);
+    border: 2px solid rgba(216, 140, 0, 0.733);
     border-radius: 10px;
     background-color: rgba(40, 40, 214, 0.384);
     &:active{border-style: outset;}
     
   }
   .couple_img{
+    
     border-radius: 15px;
     padding-top: 1em;
   }
@@ -55,6 +57,35 @@
     border-radius: 10px;
     display: flex;
     margin: 0 auto;
+  }
+}
+
+.blog {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+
+
+  p {
+    position: absolute;
+    top: 2.5em;
+    left: 5em;
+
+  }
+
+  .blog_card {
+    margin: 2em 1em ;
+    padding: 0.5em;
+    border : medium solid black;
+    
+    .blog_card_img{
+      
+      margin: 0 auto;
+      display: block;
+      
+      border-radius: 50%;
+      
+    }
   }
 }
 
