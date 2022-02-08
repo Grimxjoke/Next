@@ -20,9 +20,9 @@ export default function Home() {
 
       <Info />
       <Video />
-      <Blog />
+      {/* <Blog />
       <Specifications />
-      <CTA />
+      <CTA /> */}
     </div>
   )
 }

@@ -1,6 +1,44 @@
 
+
 .container {
-  padding: 0;
-  margin: 0;
-  color: red;
+  margin: 0 1em;
+  
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  svg {width: 25px;margin-right: 1em;}
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.info {
+  button{
+    
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+    background-color: rgba(40, 40, 214, 0.384);
+    &:active{border-style: outset;}
+    
+  }
+  .couple_img{
+    border-radius: 15px;
+    padding-top: 1em;
+  }
+   
+}
+

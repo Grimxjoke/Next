@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import styles from '../../styles/Home.module.scss'
 
 
 
@@ -17,7 +18,7 @@ export default function Footer() {
         <li>Proident ecapa nisi aute.</li>
         <li>Proiden aute.</li>
         </section>
-        <section className='space-y-4'>
+        <section>
         <li>Proidnim culpa culpa nisi aute.</li>
         <li>Proicat osi aute.</li>
         

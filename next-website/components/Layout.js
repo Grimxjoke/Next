@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <div className={style.container}>
           <Header />
           { children }
-          <Footer />
+          {/* <Footer /> */}
       </div>
   );
 }
