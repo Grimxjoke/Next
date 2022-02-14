@@ -6,10 +6,14 @@ import style from '../styles/Home.module.scss'
 
 export default function Layout({ children }) {
   return (
+    <div>
       <div className={style.container}>
           <Header />
           { children }
-          {/* <Footer /> */}
       </div>
+      <div className={style.container_footer}>
+          <Footer />
+      </div>
+  </div>
   );
 }

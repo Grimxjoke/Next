@@ -9,13 +9,11 @@ export default function Info() {
     <article className={style.info}>
       <text>
         <h1>Lorem ipsum dolor</h1>
-        <p>Quam viverra orci sagittis eu volutpat odio. Et ligula ullamcorper malesuada proin libero nunc. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id</p>
+        <p>Quam odio. Et ligula ullamcorper malesuada proin libero nunc. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id</p>
         <button>
           <Link href="#">
-            <a>Plus D'infos </a>
+            <a>Plus D'infos</a>
           </Link>
-        </button>
-        <button>
           <Link href="#">
             <a>Prendre un rendez-vous</a>
           </Link>
@@ -23,12 +21,13 @@ export default function Info() {
 
 
       </text>
-      <div >
+      <div className={style.image_container}>
         <Image
           className={style.couple_img}
           src="/couple.jpeg"
           width={600}
-          height={339}
+          height={338}
+
         />
       </div>
 

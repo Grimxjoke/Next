@@ -1,26 +1,26 @@
 import React from 'react';
 import Image from 'next/image'
-import styles from '../../styles/Home.module.scss'
+import style from '../../styles/Home.module.scss'
 
 
 
 export default function Footer() {
   return (
-    <div>
-      <h1>Lorem Ipsum Dolor Quam viverra</h1>
+    <div className={style.footer}>
+      <h1>Lorem Ipsum Dolor</h1>
       <ul>
         <section>
-        <li>Proident ex osi aute.</li>
-        <li>Proident ex si aute.</li>
+        <li>Proident aute.</li>
+        <li>Proident e aute.</li>
         <li>Pntecat</li>
         </section>
         <section>
-        <li>Proident ecapa nisi aute.</li>
+        <li>Proidena nisi aute.</li>
         <li>Proiden aute.</li>
         </section>
         <section>
-        <li>Proidnim culpa culpa nisi aute.</li>
-        <li>Proicat osi aute.</li>
+        <li>Proidnlpa nisi aute.</li>
+        <li>Proicataute.</li>
         
         </section>
       </ul>
