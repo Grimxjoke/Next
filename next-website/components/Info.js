@@ -9,11 +9,11 @@ export default function Info() {
     <article className={style.info}>
       <div className={style.image_container}>
         <Image
+          src="/calendar.svg"
+          alt="calendar"
           className={style.couple_img}
-          src="/couple.jpeg"
-          width={600}
-          height={339}
-
+          width={1000}
+          height={500}
         />
       </div>
       <text>
@@ -27,8 +27,6 @@ export default function Info() {
             <a>Prendre un rendez-vous</a>
           </Link>
         </button>
-
-
       </text>
     </article>
 

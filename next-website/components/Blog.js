@@ -1,4 +1,4 @@
-import { Card } from '@mui/material';
+
 import Image from 'next/image'
 import React from 'react';
 import style from '../styles/Home.module.scss'
@@ -6,16 +6,19 @@ import style from '../styles/Home.module.scss'
 export default function Blog() {
 
   const pixel_img_person = 70;
-  const pixel_review = 50;
+  
+
 
   return (
     <div className={style.blog}>
       
       <div className={style.blog_card_1}>
         <div className={style.blog_card_img}>
+
           <Image
             className={style.blog_card_img_real}
             src="/person1.jpg"
+            alt="face"
             width={pixel_img_person}
             height={pixel_img_person}
           />
@@ -23,7 +26,7 @@ export default function Blog() {
 
 
         <article>
-          <h5>"Et proident minim voluptate enim Lorem mollit eu aliquip eiusmod deserunt".</h5>
+          <h5>&#34; Et proident minim voluptate enim Lorem mollit eu aliquip eiusmod deserunt &#34;</h5>
           <p>Jesse Hendrick</p>
           <p>⭐⭐⭐⭐⭐</p>
         </article>
@@ -35,6 +38,7 @@ export default function Blog() {
           <Image
             className={style.blog_card_img_real}
             src="/person2.jpg"
+            alt="person"
             width={pixel_img_person}
             height={pixel_img_person}
           />
@@ -42,7 +46,7 @@ export default function Blog() {
 
 
         <article>
-          <h5>"Et proident minim voluptate enim Lorem mollit eu aliquip eiusmod deserunt".</h5>
+          <h5>&#34;Et proident minim voluptate enim Lorem mollit eu aliquip eiusmod deserunt &#34;</h5>
           <p>Jesse Hendrick</p>
           <p>⭐⭐⭐⭐⭐</p>
         </article>

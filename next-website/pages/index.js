@@ -8,7 +8,7 @@ import Blog from '../components/Blog'
 import Specifications from '../components/Specifications'
 import CTA from '../components/CTA'
 
-import { style } from '@mui/system'
+
 
 // className={styles.container}
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 import style from '../styles/Home.module.scss'
 import Link from 'next/link'
 
@@ -11,20 +12,17 @@ export default function Video() {
 
       </article>
       <iframe src="https://www.youtube.com/embed/fbIAvP5Gdzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <Link
+        
+          <a
           href="https://www.youtube.com/channel/UCXLX4SmGNCg7GQaZe7IyW4w"
-          className={style.link_video}
-        >
-          <a className={style.link_video}>
-            <img
-              src="./youtube.svg"
+          className={style.link_video}>
+            <Image
+              src="/youtube.svg"
               alt="youtube icon"
-              height=""
-              width="35" />
+              height={40}
+              width={30} />
             Allez voir sur Youtube
-
           </a>
-        </Link>
     </section>
   );
 }
