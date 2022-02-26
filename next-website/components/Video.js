@@ -21,7 +21,7 @@ export default function Video() {
               alt="youtube icon"
               height={40}
               width={30} />
-            Allez voir sur Youtube
+            Voir sur Youtube
           </a>
     </section>
   );

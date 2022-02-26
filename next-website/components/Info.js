@@ -7,15 +7,14 @@ import style from '../styles/Home.module.scss'
 export default function Info() {
   return (
     <article className={style.info}>
-      <div className={style.image_container}>
+      <image className={style.image_container}>
         <Image
           src="/calendar.svg"
           alt="calendar"
-          className={style.couple_img}
           width={1000}
           height={500}
         />
-      </div>
+      </image>
       <text>
         <h1>Lorem ipsum dolor ipsum dolipsum dol</h1>
         <p>Quam odio. Et ligula ullamcorper malesuada proin libero nunc. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id</p>

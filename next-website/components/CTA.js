@@ -16,7 +16,7 @@ export default function CTA() {
       </Link>
     </div>
       <Image
-          
+          alt="love-baloon"
           src="/love.svg"
           width={400}
           height={150}

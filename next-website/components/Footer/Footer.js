@@ -33,19 +33,16 @@ export default function Footer() {
           </section>
         </ul>
       </div>
-
-
       <div>
-
         <div className={style.footer_footer}>
           <div>
             © Lorem Ipsum {year}
           </div>
-          <div>
+          <div className={style.footer_footer_logo}>
           <a href='https://www.facebook.com/Sexologue-Th%C3%A9rapeute-de-couple-Charlotte-de-Buzon-Noum%C3%A9a-622709301162595'>
             <Image
               src='/facebook1.svg'
-              alt="calendar"
+              alt="facebook-logo"
               className={style.couple_img}
               width={image_size}
               height={image_size}
@@ -54,7 +51,7 @@ export default function Footer() {
           <a href='https://www.youtube.com/channel/UCXLX4SmGNCg7GQaZe7IyW4w'>
             <Image
               src='/youtube-footer1.svg'
-              alt="calendar"
+              alt="youtube-logo"
               className={style.couple_img}
               width={image_size}
               height={image_size}
@@ -63,8 +60,7 @@ export default function Footer() {
           <a href='https://www.sexotherapeute.nc/'>
             <Image
               src='/website1.svg'
-              
-              alt="calendar"
+              alt="website-logo"
               className={style.couple_img}
               width={25}
               height={25}
