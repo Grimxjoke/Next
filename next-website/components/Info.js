@@ -20,7 +20,7 @@ export default function Info() {
         <p>Quam odio. Et ligula ullamcorper malesuada proin libero nunc. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id</p>
         <button>
           <Link href="#">
-            <a>Plus D'infos</a>
+            <a>Plus D&apos;infos</a>
           </Link>
           <Link href="#">
             <a>Prendre un rendez-vous</a>

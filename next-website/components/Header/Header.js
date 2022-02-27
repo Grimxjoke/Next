@@ -1,9 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Link from 'next/link'
 import style from '../../styles/Home.module.scss'
-import Drawer from "../Drawer"
-import Demo from '../Drawer';
 
 export default function Header() {
     return (
@@ -32,7 +29,6 @@ export default function Header() {
                     <a>|</a>
                     <Link href="#"><a>Plus de détails</a></Link>
                 </div>
-                <Demo />
             </div>
 
         </header>

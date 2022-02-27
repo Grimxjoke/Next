@@ -11,7 +11,7 @@ export default function Video() {
         <p>Quam viverrarper malesuada proin libero nunc</p>
 
       </article>
-      <iframe src="https://www.youtube.com/embed/fbIAvP5Gdzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/fbIAvP5Gdzs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
           <a
           href="https://www.youtube.com/channel/UCXLX4SmGNCg7GQaZe7IyW4w"
