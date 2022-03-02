@@ -10,7 +10,10 @@
 
 .container_footer .children {
   padding: 0 ;
+  // color: #1ae0e7;
+  // color: #20eb19
 }
+
 
 
 .header {
@@ -375,7 +378,6 @@
       background: white;
       svg {
         background-color: #ff0000a6;
-        
         margin-right: 0;
         border-radius: 0 9px 9px 0;
       }
@@ -479,6 +481,14 @@
     
   }
 
+}
+
+.calendar {
+  overflow: hidden;
+  height: 760px;
+  width: 75vw;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .footer {

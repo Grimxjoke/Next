@@ -1,7 +1,7 @@
 :root {
   --color-blog: #cfced5;
   --color-background: rgba(255, 255, 255, 1);
-  --color-button: linear-gradient(63deg, rgba(19,214,255,1) 0%, rgba(0,112,255,1) 70%, rgba(21, 52, 146, 0.863) 100%);
+  --color-button: linear-gradient(63deg, rgba(19,214,255,1) 0%, #0070ff 70%, rgba(21, 52, 146, 0.863) 100%);
 }
  
 html,
