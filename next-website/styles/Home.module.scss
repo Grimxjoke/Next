@@ -436,7 +436,7 @@
 }
 
 .cta {
-  border-top: 1px solid;
+  
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
@@ -494,6 +494,7 @@
 .footer {
   border-top-color: rgb(255, 230, 6);
   padding: 0;
+  
   ul {
     display: flex;
     justify-content: space-between;
@@ -562,12 +563,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: url("../public/vercel.svg");
     
     img:hover {background-color:white;}
     
     .footer_footer_logo {
       display: inherit;
       align-items: center;
+      
     }
   }
 }

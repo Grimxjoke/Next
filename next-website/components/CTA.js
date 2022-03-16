@@ -9,18 +9,19 @@ export default function CTA() {
 
   return (
     <div className={style.cta}>
-    <div className={style.cta_text}>
-      <h1>Lorem Ipsum ?</h1>
-      <Link href="#">
-            <a>Prendre un rendez-vous</a>
-      </Link>
-    </div>
+      <div className={style.cta_text}>
+        <h1>Lorem Ipsum ?</h1>
+        <Link href="#">
+          <a>Prendre un rendez-vous</a>
+        </Link>
+
+      </div>
       <Image
-          alt="love-baloon"
-          src="/love.svg"
-          width={400}
-          height={150}
-        />
+        alt="love-baloon"
+        src="/love.svg"
+        width={400}
+        height={150}
+      />
     </div>
   )
 }
